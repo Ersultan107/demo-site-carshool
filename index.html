@@ -201,26 +201,26 @@
       <i data-lucide="menu" style="width:24px;height:24px;color:var(--text-primary);"></i>
     </button>
   </nav>
-
-  <div id="mobile-overlay" class="fixed inset-0 z-[60] md:hidden bg-black/40" onclick="closeDrawer()" aria-hidden="true"></div>
-  <div id="mobile-drawer" class="fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white p-6 flex flex-col z-[70] md:hidden" role="dialog" aria-modal="true" aria-label="Мобильное меню">
-    <div class="flex items-center justify-between mb-10">
-      <span class="font-syne font-bold text-lg">KANSAM</span>
-      <button id="drawer-close-btn" aria-label="Закрыть меню" class="p-2 -mr-2">
-        <i data-lucide="x" style="width:22px;height:22px;"></i>
-      </button>
-    </div>
-    <ul class="flex flex-col gap-6 list-none m-0 p-0">
-      <li><a href="#features" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Преимущества</a></li>
-      <li><a href="#process" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Как проходит обучение</a></li>
-      <li><a href="#testimonials" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Отзывы</a></li>
-      <li><a href="#pricing" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Тарифы</a></li>
-      <li><a href="#faq" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Вопросы</a></li>
-    </ul>
-    <a href="#pricing" class="drawer-link btn-primary text-center mt-10 py-3">Записаться на занятие</a>
-    <a href="tel:+77475563145" class="text-center mt-4 text-sm font-semibold no-underline" style="color: var(--text-secondary);">+7 (747) 556-31-45</a>
-  </div>
 </header>
+
+<div id="mobile-overlay" class="fixed inset-0 z-[90] md:hidden bg-black/40" onclick="closeDrawer()" aria-hidden="true"></div>
+<div id="mobile-drawer" class="fixed top-0 right-0 h-full w-[80%] max-w-sm p-6 flex flex-col z-[100] md:hidden" style="background:#ffffff; isolation:isolate;" role="dialog" aria-modal="true" aria-label="Мобильное меню">
+  <div class="flex items-center justify-between mb-10">
+    <span class="font-syne font-bold text-lg">KANSAM</span>
+    <button id="drawer-close-btn" aria-label="Закрыть меню" class="p-2 -mr-2">
+      <i data-lucide="x" style="width:22px;height:22px;"></i>
+    </button>
+  </div>
+  <ul class="flex flex-col gap-6 list-none m-0 p-0">
+    <li><a href="#features" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Преимущества</a></li>
+    <li><a href="#process" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Как проходит обучение</a></li>
+    <li><a href="#testimonials" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Отзывы</a></li>
+    <li><a href="#pricing" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Тарифы</a></li>
+    <li><a href="#faq" class="drawer-link font-syne font-semibold no-underline" style="font-size:20px;color:var(--text-primary);">Вопросы</a></li>
+  </ul>
+  <a href="#pricing" class="drawer-link btn-primary text-center mt-10 py-3">Записаться на занятие</a>
+  <a href="tel:+77475563145" class="text-center mt-4 text-sm font-semibold no-underline" style="color: var(--text-secondary);">+7 (747) 556-31-45</a>
+</div>
 
 <!-- ================= HERO ================= -->
 <section id="top" class="relative pt-32 md:pt-40 pb-20 md:pb-28 overflow-hidden">
@@ -259,10 +259,10 @@
 
       <div class="flex items-center gap-4">
         <div class="flex -space-x-3" aria-hidden="true">
-          <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=facearea&facepad=2.5&w=200&h=200&q=90" alt="" loading="lazy" class="w-10 h-10 rounded-full object-cover border-2 border-white" />
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=facearea&facepad=2.5&w=200&h=200&q=90" alt="" loading="lazy" class="w-10 h-10 rounded-full object-cover border-2 border-white" />
-          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=facearea&facepad=2.5&w=200&h=200&q=90" alt="" loading="lazy" class="w-10 h-10 rounded-full object-cover border-2 border-white" />
-          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=facearea&facepad=2.5&w=200&h=200&q=90" alt="" loading="lazy" class="w-10 h-10 rounded-full object-cover border-2 border-white" />
+          <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=facearea&facepad=2.5&w=200&h=200&q=90" alt="" class="w-10 h-10 rounded-full object-cover border-2 border-white" style="background:#E5E7EB;" />
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=facearea&facepad=2.5&w=200&h=200&q=90" alt="" class="w-10 h-10 rounded-full object-cover border-2 border-white" style="background:#E5E7EB;" />
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=facearea&facepad=2.5&w=200&h=200&q=90" alt="" class="w-10 h-10 rounded-full object-cover border-2 border-white" style="background:#E5E7EB;" />
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=facearea&facepad=2.5&w=200&h=200&q=90" alt="" class="w-10 h-10 rounded-full object-cover border-2 border-white" style="background:#E5E7EB;" />
         </div>
         <div class="text-sm">
           <div class="flex items-center gap-1 mb-0.5" aria-label="Оценка 4.5 из 5 звёзд">
@@ -277,9 +277,9 @@
       </div>
     </div>
 
-    <div class="reveal relative">
+    <div class="reveal relative mt-2 md:mt-0">
       <div class="relative rounded-3xl overflow-hidden" style="box-shadow: var(--shadow-lg);">
-        <img id="hero-photo" src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1920&q=90" alt="Инструктор автошколы KANSAM обучает ученицу вождению в учебном автомобиле" loading="lazy" class="w-full h-[420px] md:h-[560px] object-cover" />
+        <img id="hero-photo" src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1920&q=90" alt="Инструктор автошколы KANSAM обучает ученицу вождению в учебном автомобиле" class="w-full h-[320px] sm:h-[420px] md:h-[560px] object-cover" style="object-position: center 40%;" />
         <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(16,185,129,0.08), rgba(37,99,235,0.35));" aria-hidden="true"></div>
       </div>
 
